@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Taximeter {
     public static void main(String[] args) {
 
-        //Taximeter costs 2.20 TL per kilometer.
-        //Short distance fee is 20 TL. For fares under 20 TL, 20 TL will still be charged.
-        //Taximeter opening fee is 10 TL.
+        //Taximeter costs 2.20 $ per kilometer.
+        //Short distance fee is 20 $. For fares under 20 $, 20 $ will still be charged.
+        //Taximeter opening fee is 10 $.
 
         Scanner input = new Scanner(System.in);
         double km,total_cost;
